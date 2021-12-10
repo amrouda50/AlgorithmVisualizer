@@ -1,10 +1,6 @@
 #include "acutest.h"
 #include "../sources/column.h"
-#include <QtCore>
-#include <QtGui>
-#include <QGraphicsScene>
-#include <QGraphicsSimpleTextItem>
-#include <QString>
+
 
 //compile with: g++ -o test test.cpp
 //documentation of acutest: https://github.com/mity/acutest/blob/master/README.md
@@ -14,7 +10,7 @@
 //Testing the Column class
 void column_empty_constructor(void){
 	Column col;
-	TEST_CHECK_(col.getVal() == 0, "an empty column's value is: %d",col.getVal() );
+	TEST_CHECK_(col.getVal() != 0, "an empty column's value is: %d",col.getVal() );
 	TEST_CHECK_(col.getPos() == 0, "an empty column's position is: %d",col.getPos() );
 }
 
