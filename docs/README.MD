@@ -1,0 +1,3 @@
+-you can view the latest gui layout plan in this folder exported as pdf
+-to edit the file go to https://wireframepro.mockflow.com/view/M0oCbHcNNmb
+-after editing, don't forget to upload your edited plan here
