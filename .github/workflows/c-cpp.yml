@@ -30,8 +30,8 @@ jobs:
           platform: x64
           
       #this installs qt framework
-      - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+     #name: Install Qt
+        #uses: jurplel/install-qt-action@v2
     
         #this executes the unit tests
       - name: Run Tests
