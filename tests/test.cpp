@@ -1,5 +1,10 @@
 #include "acutest.h"
 #include "../sources/column.h"
+#include <QtCore>
+#include <QtGui>
+#include <QGraphicsScene>
+#include <QGraphicsSimpleTextItem>
+#include <QString>
 
 //compile with: g++ -o test test.cpp
 //documentation of acutest: https://github.com/mity/acutest/blob/master/README.md
