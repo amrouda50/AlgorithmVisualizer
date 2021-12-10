@@ -10,7 +10,7 @@
 //Testing the Column class
 void column_empty_constructor(void){
 	Column col;
-	TEST_CHECK_(col.getVal() != 0, "an empty column's value is: %d",col.getVal() );
+	TEST_CHECK_(col.getVal() == 0, "an empty column's value is: %d",col.getVal() );
 	TEST_CHECK_(col.getPos() == 0, "an empty column's position is: %d",col.getPos() );
 }
 
