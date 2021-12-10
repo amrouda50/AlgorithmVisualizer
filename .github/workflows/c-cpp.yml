@@ -19,6 +19,7 @@ jobs:
   test:
     runs-on: windows-latest
     steps:
+    
         #this gets the code 
       - name: Check out the code
         uses: actions/checkout@v1
@@ -28,11 +29,16 @@ jobs:
         uses: egor-tensin/setup-mingw@v2
         with:
           platform: x64
+        
+        
+      - name: Check
+        shell: powershell
+        run: cd
           
-      #this installs qt framework
-     #name: Install Qt
-        #uses: jurplel/install-qt-action@v2
-    
+
+       
+        
+        
         #this executes the unit tests
       - name: Run Tests
         shell: powershell
