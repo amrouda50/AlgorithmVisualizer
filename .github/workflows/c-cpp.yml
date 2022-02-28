@@ -34,11 +34,12 @@ jobs:
       - name: Check
         shell: powershell
         run: cd
+        
+      - name: Check
+        shell: powershell
+        run: make
           
 
-       
-        
-        
         #this executes the unit tests
       - name: Run Tests
         shell: powershell
